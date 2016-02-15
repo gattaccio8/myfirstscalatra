@@ -39,6 +39,7 @@ class MyScalatraServlet extends MyfirstscalatraStack {
     <html>
       <body>
         <h1>Hello POST form!</h1>
+        <h1>Hello {params("fname")} {params("lname")}</h1>
       </body>
     </html>
   }
