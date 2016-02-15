@@ -31,8 +31,6 @@ object MyfirstscalatraBuild extends Build {
         "org.scalatra" %% "scalatra-json" % ScalatraVersion,
         "org.json4s" %% "json4s-jackson" % "3.3.0",
 
-//        "org.scalatra" %% "scalatra-swagger"  % ScalatraVersion,
-
         "org.eclipse.jetty" % "jetty-webapp" % "9.2.14.v20151106" % "container",
         "javax.servlet" % "javax.servlet-api" % "3.1.0" % "provided"
 
